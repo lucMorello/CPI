@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
 # Declarando a porta serial
-SERIAL_PORT = 'COM17'
+SERIAL_PORT = 'COM5'
 
 # Declarando a velocidade de leitura, tem que ser a mesma do Arduino
 SERIAL_RATE = 115200
