@@ -40,10 +40,10 @@ def animate(i, dataList, ser):
     ax.clear()  # Limpa o plot
 
     # Informações do gráfico
-    ax.plot(dataList["Tempo [s]"], dataList["Setpoint"], label=f"Setpoint = {dataList['Setpoint'][-1]}", color='b', linestyle='--', linewidth=5)
-    ax.plot(dataList["Tempo [s]"], dataList["Valor Atual"], label=f"Valor Atual = {dataList['Valor Atual'][-1]}", color='g')
-    ax.plot(dataList["Tempo [s]"], dataList["Valor do Erro"], label=f"Valor do Erro = {dataList['Valor do Erro'][-1]}", color='r')
-    # ax.plot(dataList["Tempo(s)"], dataList["Saída PWM"], label="Saída PWM", color='m')
+    ax.plot(dataList["Tempo [s]"], dataList["Setpoint"], label=f"Setpoint = {dataList['Setpoint'][-1]}", color='c', linestyle='--', linewidth=5)
+    ax.plot(dataList["Tempo [s]"], dataList["Valor Atual"], label=f"Valor Atual = {dataList['Valor Atual'][-1]}", color='m')
+    ax.plot(dataList["Tempo [s]"], dataList["Valor do Erro"], label=f"Valor do Erro = {dataList['Valor do Erro'][-1]}", color='y')
+  
 
     # Formatando o gráfico
     ax.set_xlabel("Tempo [s]")
