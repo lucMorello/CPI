@@ -1,9 +1,9 @@
   /*
   * Docente: Dhiego Fernandes Carvalho
-  * Discente: Cesar Augusto Mendes Cordeiro da Silva
-  * GitHub: https://github.com/Cesarquatro
+  * Discente: Lucas Martins Morello
+  * GitHub: https://github.com/lucMorello
   * Atividade Extra
-  * 22/10/2024
+  * 21/10/2024
   */
 
 const int SENSOR_PIN = 4;  // Pino de entrada analógico (sensor)
